@@ -25,7 +25,6 @@ func NewSharedFile(path string) *SharedFile {
 	}
 	return &SharedFile{
 		Path:    path,
-		Updated: time.Now(),
 		Updated: updated,
 	}
 }
